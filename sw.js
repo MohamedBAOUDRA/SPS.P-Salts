@@ -2,7 +2,7 @@
 // The page is kept as it is served, encrypted: nothing decrypted is ever stored. The copilot and every other
 // request to another site go straight to the network, untouched.
 // Online, the page is always taken from the network first, so a new version shows at the next opening.
-const VERSION = '24-202611262006';
+const VERSION = '24-202611262022';
 const CACHE = 'psalts-' + VERSION;
 const SCOPE = new URL('./', self.location).pathname;
 const PAGE = SCOPE + 'index.html';
